@@ -1,0 +1,286 @@
+body {
+    background-image: url(./img/fondo_musica.gif);
+    background-size: cover;
+}
+/*MENU*/
+.menu{
+   
+    width: 450px;
+    height: 56px;
+    padding:  0px20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    box-shadow: 0 8px 32px 0 rgba(73, 73, 73, 0.37);
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+justify-content: center;
+}
+.menuTxt{
+    font-family: "Onest";
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+}
+.flechaIzq{
+    padding: 20px 25px;
+    width:20px;
+
+    /* top: 4%;
+    left: 35%;
+    position: absolute; */
+    /* width: 70px; */
+    height: 16px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    text-align: center;
+}
+.flechaDerecha img{
+     transform: rotate(180deg);
+}
+.flechaDerecha{
+    /* top :4%;
+    left:65%;
+    position: absolute; */
+    width:20px;
+    height: 16px;
+    padding: 20px 25px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2); 
+}
+.cabecera{
+   /* position: absolute;*/
+display: flex;
+gap: 90px;
+    top :8%;
+    left: 32%;
+    justify-content: center;
+    MARGIN-TOP: 90PX;
+}
+/*FORMULARIO*/
+.form {
+    margin: 5% 0px 0px 28%;
+    width: 800px;
+    height: auto;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    box-shadow: 0 8px 32px 0 rgba(73, 73, 73, 0.37);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 30px;
+}
+.form input{
+    width: 100px;
+    border-radius: 10px;
+}
+.genero input{
+    border-bottom: 0.75px solid white;
+    background:none;
+    border-top: none;
+    border-right: none;
+    border-radius:0px;
+}
+.generoInput{
+    display: flex;
+    gap:50px;
+}
+.intrsumentos{
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 200;
+}
+.inputText {
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+label{
+    width: 50px;
+}
+.sendBtn {
+    top: 11%;
+    left: 77%;
+    position: absolute;
+}
+.sendBtn input{
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 32px;
+    text-decoration: underline 1px white;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background:none;
+    width: 200px;
+    border: 0px;
+    left: 40%;
+}
+.cancionesDeezer{
+    position: relative;
+    top: 30%;
+    left: 2%;
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: row;
+    gap: 70px;
+    overflow: auto;
+    justify-content: flex-start;
+    scroll-behavior: smooth;
+    white-space: wrap;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+.cancionesDeezer::-webkit-scrollbar {
+    display: none; 
+ }
+/*INTRODUCCION INDEX */
+.introSec{
+    margin: 5% 0px 0px 28%;
+    width: 800px;
+    height: 500px;
+    padding: 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: white;
+    box-shadow: 0 8px 32px 0 rgba(73, 73, 73, 0.37);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+
+}
+.steps{
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+/*footer*/
+
+footer{
+    position:absolute;
+    bottom: 5%;
+    left: 5%;
+    font-family: "Funnel Display", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(122, 121, 121); 
+}
+/*barra home buscar*/
+.searchfafa{
+    background: none;
+    border-radius: 10px;
+    border: 0.5px solid white;
+    padding: 5px 10px;
+    width: 200px;
+}
+input {
+    color: rgb(122, 121, 121);
+}
+.submitbtn{
+    border-radius: 10px;
+    border: none;
+    padding: 5px 10px;
+    color: gray;
+}
+.buscadorCanciones{
+    position:absolute;
+    top: 40%;
+    left: 30%;
+    display: flex;
+    gap: 50px;
+}
+.cancionSingular h2{
+    color: rgb(212, 212, 212);
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+}
+.cancionSingular h3{
+    color: rgb(212, 212, 212);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.cancionSingular{
+    width: 300px;
+    height:auto;
+}
+.contenedorCancion{
+    display: flex;
+}
+/*REGISTER*/
+#filtro-tipo{
+    margin: 5% 0px 0px 28%;
+    width: 200px;
+    height: auto;
+    padding: 15px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: none;
+    color: rgb(136, 136, 136);
+  
+}
+.allSongs{
+    display: flex;
+        flex-direction: row-reverse;
+        gap: 130px;
+        margin: 4% 0px 0px 21%;
+        height: fit-content;
+        width: 1480px;
+        align-items: flex-end;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        align-content: center;
+}
+.cancionSingular h3{
+    color: rgb(212, 212, 212);
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+}
+.cancionSingular h4{
+    color: rgb(136, 136, 136);
+    font-family: "Onest", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 14px;
+}
